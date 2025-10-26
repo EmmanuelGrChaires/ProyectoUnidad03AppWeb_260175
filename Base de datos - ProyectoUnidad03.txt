@@ -1,0 +1,18 @@
+CREATE DATABASE DBProyecto;
+USE DBProyecto;
+
+CREATE TABLE Usuarios (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nombre NVARCHAR(50),
+    email NVARCHAR(100),
+    password NVARCHAR(50)
+);
+
+CREATE LOGIN EmmaCha WITH PASSWORD = '197600';
+
+CREATE USER EmmaCha FOR LOGIN EmmaCha;
+ALTER ROLE db_datareader ADD MEMBER EmmaCha;
+ALTER ROLE db_datawriter ADD MEMBER EmmaCha;
+
+Select*from Usuarios
+
