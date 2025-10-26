@@ -1,0 +1,8 @@
+Servlets\SvRegister.class
+Models\Usuario.class
+com\mycompany\proyectounidad03_260175\resources\JakartaEE11Resource.class
+Models\Pokemon.class
+Filtros\AuthFilter.class
+Servlets\SvApi.class
+com\mycompany\proyectounidad03_260175\JakartaRestConfiguration.class
+Servlets\SvLogin.class

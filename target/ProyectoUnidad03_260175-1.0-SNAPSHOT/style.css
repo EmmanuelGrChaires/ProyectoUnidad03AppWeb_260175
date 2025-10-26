@@ -1,0 +1,189 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 oct 2025, 6:54:28 a.m.
+    Author     : Emma
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  background-image: url('https://i.pinimg.com/1200x/3c/b6/39/3cb63926e20e78b82254eefaf8baa9eb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', cursive; 
+}
+
+
+h1.login-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 54px;
+  color: #ffeb3b;           
+  text-shadow: 2px 2px #000, 4px 4px #1976d2; 
+  margin-bottom: 25px;
+}
+h2{
+    color:#000;
+   font-size: 30px;
+}
+h1{
+    
+    color:#000;
+    font-weight: bold;
+}
+p{
+  
+  font-size: 19px;
+  color: #000;  
+  font-weight: bold;
+}
+
+form.card {
+  background-color: #1976d2; 
+  border-radius: 30px;
+  padding: 45px 35px;
+  width: 400px;
+  margin: 60px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+form.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 40px rgba(255, 235, 59, 0.7);
+
+}
+
+form.card img.form-image {
+  width: 120px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffeb3b;
+  box-shadow: 0 4px 15px rgba(255, 235, 59, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+form.card img.form-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #ffeb3b;
+}
+
+label{
+     text-align: left;     
+     display: block;     
+}
+
+input {
+  width: 90%;
+  padding: 14px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  margin-bottom: 22px;
+  font-size: 16px;
+  outline: none;
+  transition: transform 0.3s, border-color 0.3s, background-color 0.3s;
+  font-family: 'Fredoka One', cursive; 
+}
+
+input:focus {
+  transform: scale(1.03);
+  border-color: #ffeb3b;
+  background-color: #e3f2fd;
+}
+
+
+form.card button {
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 25px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.3s, box-shadow 0.4s;
+  font-family: 'Fredoka One', cursive; 
+}
+
+form.card button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 25px #cddc39; 
+}
+
+button.nav-button, .button {
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-size: 19px;
+  font-family: 'Fredoka One', cursive; 
+  font-weight: bold;
+}
+
+button.nav-button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 20px #cddc39;
+ 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.card-api {
+  background-color: #d32f2f; 
+  border-radius: 15px;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive; 
+}
+
+.card-api:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #ffeb3b;
+}
+
+
+.card-api img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+  animation: bounce 1s infinite alternate;
+}
+
+
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-10px);}
+}
+
+a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
